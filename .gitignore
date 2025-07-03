@@ -1,0 +1,6 @@
+# Virtual Environment
+env/
+
+# Operating system
+Thumbs.db
+Desktop.ini

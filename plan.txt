@@ -1,0 +1,17 @@
+# .
+# ├── APP TREE:
+# └── ROOT (MAIN WINDOW):
+# └── main_widget(contain all element of the app): MWIDGET
+#       ├── Scroll area (QScrollarea)
+#           scrollwidget
+# │             └── scroll layout (QLayout)[contain all possible button]
+# │             ├── btn 1 (QPushButton)[button to show a content in the content area]
+# │             ├── btn 2 (QPushButton)[button to show a content in the content area]
+# │             ├── btn ... (QPushButton)[button to show a content in the content area]
+# │         └   ── btn n (QPushButton)[button to show a content in the content area]
+#       └──Content area (QWidget)
+#           ├──   image_label (QLabel)[container of the image]
+#           │     └── image (QImage)[the image itself]
+#           └──   image description (Qwidget)[contain all description of the image]
+
+APP TREE
